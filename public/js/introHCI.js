@@ -28,7 +28,7 @@ function addProjectDetails(e) {
 
 	console.log("User clicked on project " + idNumber);
 
-	$.get("http://localhost:3000/project/" + idNumber, callback)
+	$.get("https://cogs120-lab6-x5yao.herokuapp.com/project/" + idNumber, callback)
 
 }
 
